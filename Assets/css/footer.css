@@ -1,0 +1,45 @@
+.container-footer{
+    background-color: #1F1F24;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+.parent-footer{
+    padding-inline: 6rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    height:30vh;
+    padding-top: 3rem;
+    
+}
+
+
+.icons-footer .fa-solid , .fa-brands{
+    color: #CE1212;
+    margin-right: 1.2rem;
+    font-size: 1.7rem;
+}
+
+.icons-footer p{
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    color: #7F7F75 !important;
+}
+
+
+.follow{
+   
+line-height: 2rem;
+    
+}
+
+
+.s-m{
+    color: #7F7F75;
+}
+
+/* .icons-footer .follow{
+    padding-top: 2rem;
+} */

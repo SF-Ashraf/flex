@@ -1,0 +1,60 @@
+:root {
+  -bg-main: #ffffff;
+  --bg-secion-2: #eeeeee;
+  --hover-btn: #e89191;
+  --bg-color-1: #37373f;
+  --bg-color-2: #676768;
+  --bg-color-3: #ce1212;
+  --bg-brdr: #7f7f90;
+}
+
+.dp-flex{
+  display: flex;
+}
+
+.dp-flex-sw{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dp-flex-ce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dp-flex-sp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dp-flex-ce-w {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.dp-flex-sp-w {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.btn-1 {
+  padding: 2.5rem;
+  border-radius: 1rem;
+  color: var(--bg-secion-2);
+}
+
+.test-bg {
+  background-color: teal;
+}
+
+.test-br {
+  border: 2px solid tomato;
+}

@@ -1,0 +1,23 @@
+
+@media (max-width: 1024px) {
+  .links{
+    gap: 1rem;
+  }
+
+  .left-sec h2 , .left-sec h3{
+    margin-top: 1.3rem;
+    font-size: 2rem;
+
+    
+  }
+
+  textarea {
+  resize: none;
+  overflow: hidden;
+}
+}
+
+
+@media (max-width: 768px){
+
+}
