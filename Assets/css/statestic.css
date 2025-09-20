@@ -1,0 +1,43 @@
+.bg-state {
+  position: relative;
+  margin-top: 4rem;
+  background-image: url("/Assets/image/stats-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+
+  height: 70%;
+  z-index: -1;
+}
+
+.bg-state::after {
+  content: "";
+  position: absolute;
+  background-color: #00000063;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: -1;
+}
+
+
+.content-state {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+   
+}
+
+.content-state h3{
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
+
