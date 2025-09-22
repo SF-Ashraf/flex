@@ -1,0 +1,29 @@
+.top-contact {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.top-contact p {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  color: #a6a6b2;
+  margin-bottom: 0.5rem;
+}
+
+.top-contact h3 {
+  font-family: "Oleo Script", system-ui;
+  font-size: 3rem;
+  color: #a6a6b2;
+}
+
+.top-contact span {
+  color: #ce1212;
+}
+
+.map {
+  padding-inline: 6rem;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0.8rem;
+}
